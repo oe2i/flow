@@ -6,9 +6,7 @@ class Flow
 {
 	public static function name($name = null)
 	{
-		if ($name) {
-			return 'Name is: ' . $name;
-		}
-		return 'No name given';
+		$name = !empty($name) ? $name : 'Anonymous';
+		return 'Name is: <b>'.$name.'</b>';
 	}
 }

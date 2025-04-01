@@ -12,3 +12,5 @@
 .gitignore export-ignore
 CHANGELOG.md export-ignore
 UPGRADE.md export-ignore
+
+/index.php export-ignore

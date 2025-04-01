@@ -1,6 +1,8 @@
 {
 	"name": "oe2i/flow",
 	"description": "Flow library for extending the Laravel framework.",
+	"type": "library",
+	"version": "1.0.0",
 	"keywords": [
 		"oe2i",
 		"flow library",
